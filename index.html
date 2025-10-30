@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Journey Through the Solar System</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="stars"></div>
+    <main id="solar-system">
+        <section class="scroll-section" id="intro">
+            <h1 class="title">Journey Through the Solar System</h1>
+            <p class="subtext">Scroll to explore our cosmic neighborhood.</p>
+            <div class="sun"></div>
+        </section>
+        <section class="scroll-section" id="mercury">
+            <div class="planet-container">
+                <div class="planet" data-planet="Mercury"></div>
+                <div class="planet-description">
+                    <h2>Mercury</h2>
+                    <p>The smallest planet in our solar system and nearest to the Sun, Mercury is only slightly larger than Earth's Moon. It is the fastest planet, zipping around the Sun every 88 Earth days.</p>
+                </div>
+            </div>
+        </section>
+        <section class="scroll-section" id="venus">
+            <div class="planet-container">
+                <div class="planet" data-planet="Venus"></div>
+                <div class="planet-description">
+                    <h2>Venus</h2>
+                    <p>Venus spins slowly in the opposite direction from most planets. A thick atmosphere traps heat in a runaway greenhouse effect, making it the hottest planet in our solar system.</p>
+                </div>
+            </div>
+        </section>
+        <section class="scroll-section" id="earth">
+            <div class="planet-container">
+                <div class="planet" data-planet="Earth"></div>
+                <div class="planet-description">
+                    <h2>Earth</h2>
+                    <p>Our home planet is the only place we know of so far that’s inhabited by living things. It's also the only planet in our solar system with liquid water on the surface.</p>
+                </div>
+            </div>
+        </section>
+        <section class="scroll-section" id="mars">
+            <div class="planet-container">
+                <div class="planet" data-planet="Mars"></div>
+                <div class="planet-description">
+                    <h2>Mars</h2>
+                    <p>Mars is a dusty, cold, desert world with a very thin atmosphere. There is strong evidence Mars was—billions of years ago—a wetter and warmer world, with rivers, lakes, and perhaps even oceans.</p>
+                </div>
+            </div>
+        </section>
+        <section class="scroll-section" id="jupiter">
+            <div class="planet-container">
+                <div class="planet" data-planet="Jupiter"></div>
+                <div class="planet-description">
+                    <h2>Jupiter</h2>
+                    <p>Jupiter is more than twice as massive than the other planets of our solar system combined. The giant planet's Great Red Spot is a centuries-old storm bigger than Earth.</p>
+                </div>
+            </div>
+        </section>
+        <section class="scroll-section" id="saturn">
+            <div class="planet-container">
+                <div class="planet" data-planet="Saturn"></div>
+                <div class="planet-description">
+                    <h2>Saturn</h2>
+                    <p>Adorned with a dazzling, complex system of icy rings, Saturn is unique in our solar system. The other giant planets have rings, but none are as spectacular as Saturn's.</p>
+                </div>
+            </div>
+        </section>
+        <section class="scroll-section" id="uranus">
+            <div class="planet-container">
+                <div class="planet" data-planet="Uranus"></div>
+                <div class="planet-description">
+                    <h2>Uranus</h2>
+                    <p>Uranus—seventh planet from the Sun—rotates at a nearly 90-degree angle from the plane of its orbit. This unique tilt makes Uranus appear to spin on its side.</p>
+                </div>
+            </div>
+        </section>
+        <section class="scroll-section" id="neptune">
+            <div class="planet-container">
+                <div class="planet" data-planet="Neptune"></div>
+                <div class="planet-description">
+                    <h2>Neptune</h2>
+                    <p>Neptune—the eighth and most distant major planet orbiting our Sun—is dark, cold, and whipped by supersonic winds. It was the first planet located through mathematical calculation.</p>
+                </div>
+            </div>
+        </section>
+    </main>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script>
+    <script src="https://unpkg.com/@studio-freight/lenis@1.0.42/dist/lenis.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
